@@ -1,0 +1,268 @@
+/* body */
+body {
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #1c1B1B;
+    color: white;
+}
+
+/* header */
+header {
+    width: 150px;
+    color: black;
+    background-color: rgb(187, 187, 187);
+    transform: translatex(60px);
+    border: 2px solid black;
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+
+header li :hover {
+    font-size: 17px;
+    color: rgb(16, 9, 9);
+}
+
+/* headings */
+h1 {
+    text-align: center;
+    background-color: rgb(104, 100, 94);
+    width: 470px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 3px double white;
+}
+
+h2 {
+    width: 260px;
+    text-decoration: underline dotted;
+    margin: 30px;
+    border: dotted rgb(246, 225, 225) 3px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(104, 100, 94);
+}
+
+h3 {
+    width: 260px;
+    text-decoration: underline dotted;
+    margin: 30px;
+    border: dotted rgb(246, 225, 225) 3px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(104, 100, 94);
+}
+
+/* Home section */
+#home {
+    background-color: #513920;
+    border: 14px double #BAB1A4;
+    color: white;
+}
+
+#restaurant-hero {
+    margin: 20px 70px auto;
+    border: 3px solid rgb(150, 124, 152);
+    border-radius: 5%;
+    padding: 5px;
+    position: relative;
+    left: 370px;
+}
+
+#home figcaption {
+    text-align: center;
+    font-weight: 300;
+    font-style: initial;
+}
+
+.M-masterpiece {
+    width: 36%;
+    margin: 2% 4.5% 2% 4.5%;
+    border: 3px solid rgb(74, 35, 104);
+    position: relative;
+    right: -72px;
+}
+
+#featured_meal {
+    background: url(gettyimages-1428594094-612x612.jpg);
+}
+
+#home ul {
+    position: relative;
+    right: -60px;
+}
+
+#home button {
+    width: 200px;
+    text-align: middle;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid rgb(23, 40, 6);
+    border-radius: 15px;
+    background-color: rgb(148, 182, 189);
+    color: rgb(38, 8, 40);
+}
+
+#order-button :hover {
+    font-size: 14px;
+    background-color: rgb(5, 14, 195);
+    transition: 1.5s;
+}
+
+/* Menu section */
+#menu img {
+    background-color: #432708;
+    width: 220px;
+    margin: 15px;
+    border: 5px white solid;
+    padding: 20px;
+    border-style: ridge;
+    border-right: 0px;
+    border-top: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 180px;
+}
+
+#menu th {
+    background-color: rgb(104, 150, 30);
+    border: 2.5px solid rgb(244, 239, 239);
+    border-radius: 15px;
+}
+
+#second-table {
+    background-color: #513920;
+    font-size: medium;
+}
+
+#second-table td {
+    margin: 20px;
+    border: 1px solid rgb(147, 147, 123);
+    padding: 10px;
+}
+
+/* about us section */
+#about_us {
+    background-color: #2a2520;
+}
+
+#about_us h2 {
+    margin: 30px auto;
+    border: double 3px;
+}
+
+#about_us div {
+    background: url(gettyimages-957729194-612x612.jpg);
+    background-repeat: repeat;
+    color: rgb(248, 245, 245);
+    background-position: top;
+}
+
+#about_us div li {
+    border: solid 0.5px rgb(16, 9, 9, 0.8);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgb(16, 9, 9, 0.8);
+}
+
+#about_us div img {
+    width: 70px;
+    border: #BAB1A4 2px solid;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#diff-h3 {
+    width: 360px;
+}
+
+#about_us article {
+    width: 250px;
+    border: 2px;
+    border-radius: 17%;
+    margin: 10px;
+    padding: 20px;
+    height: 250px;
+    background-color: #473c3c;
+}
+
+#about_us article img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px;
+    border-radius: 13%;
+}
+
+/* customer's review */
+
+#emily {
+    position: absolute;
+    left: 200px;
+}
+
+#david {
+    position: absolute;
+    left: 635px;
+}
+
+#robert {
+    position: absolute;
+    left: 1050px;
+}
+
+#mark {
+    position: absolute;
+    left: 200px;
+    top: 700px;
+}
+
+#daniel {
+    position: absolute;
+    left: 635px;
+    top: 700px;
+}
+
+#james {
+    position: absolute;
+    left: 1050px;
+    top: 700px;
+}
+
+#julia {
+    position: absolute;
+    left: 200px;
+    top: 350px;
+}
+
+#ayra {
+    position: absolute;
+    left: 635px;
+    top: 350px;
+}
+
+#christine {
+    position: absolute;
+    left: 1050px;
+    top: 350px;
+}
+
+#scr-div {
+    position: relative;
+}
+
+/* contact section */
+/* #contact-info {
+    position: absolute;
+    top: 150px;
+}
+
+#contact{
+    position: relative;
+    top:950px;
+} */

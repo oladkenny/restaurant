@@ -1,9 +1,12 @@
 /* body */
 body {
-    font-family: "Signika", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
     background-color: #1c1B1B;
     color: white;
 }
@@ -56,6 +59,10 @@ h3 {
     background-color: rgb(104, 100, 94);
 }
 
+h4{
+    text-decoration: underline solid ;
+}
+
 /* Home section */
 #home {
     background-color: #513920;
@@ -88,6 +95,8 @@ h3 {
 
 #featured_meal {
     background: url(gettyimages-1428594094-612x612.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
 }
 
 #home ul {
@@ -159,6 +168,8 @@ h3 {
     background-repeat: repeat;
     color: rgb(248, 245, 245);
     background-position: top;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
 }
 
 #about_us div li {
@@ -200,69 +211,235 @@ h3 {
 }
 
 /* customer's review */
-
-#emily {
-    position: absolute;
-    left: 200px;
+#scr-div img {
+    width: 30%;
 }
 
-#david {
-    position: absolute;
-    left: 635px;
+.first-side {
+    display: inline-block;
 }
 
-#robert {
-    position: absolute;
-    left: 1050px;
+/* order section */
+#order-now {
+    background-color:#7a7564;
+    color: #21252a;
+    border:#1c1B1B solid 2px;
+    border-radius: 5%;
 }
 
-#mark {
-    position: absolute;
-    left: 200px;
-    top: 700px;
+#order-now h2 {
+    background-color: #1c1B1B;
+    color: white;
+    margin: 0px auto;
 }
 
-#daniel {
-    position: absolute;
-    left: 635px;
-    top: 700px;
+.first-part {
+    display: inline-block;
+    margin: 50px -150px 50px 400px;
+    border: solid 2px;
+    border-radius: 13%;
+    padding: 40px;
+    height:350px;
+    background-color: #979797;
 }
 
-#james {
-    position: absolute;
-    left: 1050px;
-    top: 700px;
+.first-part img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    border:3.5px solid rgb(26, 25, 25) ;
+    border-radius: 70%;
 }
 
-#julia {
-    position: absolute;
-    left: 200px;
-    top: 350px;
+.first-part p {
+    text-align: center;
+}
+.second-paragraph{
+    background-color: rgb(123, 139, 72);
+    color:white;
+    padding:8px;
+    border:rgb(40, 40, 32) 2px solid;
+    border-radius: 5%;
 }
 
-#ayra {
-    position: absolute;
-    left: 635px;
-    top: 350px;
+.first-part button {
+    width: 100px;
+    text-align: middle;
+    margin: 5px;
+    padding: 2px;
+    border: 2px solid rgb(23, 40, 6);
+    border-radius: 15px;
+    background-color: rgb(245, 229, 10);
+    color: rgb(38, 8, 40);
 }
 
-#christine {
-    position: absolute;
-    left: 1050px;
-    top: 350px;
+.first-part button:hover {
+    font-size: 14px;
+    background-color: rgb(58, 139, 15);
+    transition: 1s;
+    border:2px;
+    border-radius: 30%;
+}
+.except{
+    color:#1c1B1B;
+    background-color: rgb(135, 174, 9);
+    border:solid 1px black;
+    border-radius: 13%;
+    padding:0px 4px;
+    font-size: smaller;
+}
+/* popular menu section */
+#popular-menu img{
+    width:160px;
+    border:1px solid;
+    border-radius: 20px;
+}
+.popular-menu-class{
+    width:500px;
+    border:2px solid black;
+    border-radius:20px;
+    margin:15px;
+    padding-top: 10px;
+    padding-left: 10px;
+   background-color: #21252a;
+   color: #f1f5f3;
+}
+#pm-section{
+    background-color: #c2c5c8;
+}
+.pm-paragraph{
+    text-align: center;
+   margin-top: -120px;
+       border: 2px dotted rgb(105, 112, 88);
+    border-radius: 20px;  
+    
+}
+.popular-menu-class button{
+    margin-left: 400px;
+    margin-bottom: -50px; 
+    margin-bottom: 3px;
+    padding:0px 10px;
+    background-color: #8e8e8f;
+    border-radius: 20px;
 }
 
-#scr-div {
-    position: relative;
+.order-button:hover{
+    font-size: 14px;
+    background-color: rgb(228, 234, 224);
+    transition: 1s;
+    border:2px;
+    border-radius: 30px;
+}
+
+.ratings{
+margin-left:400px ;
+margin-top: -50px;
+color:rgb(128, 128, 3);
+}
+
+/* payment section */
+#payment-mother-div{
+background-color:  white; 
+}
+
+
+#payment-div{
+    border:2px solid black;
+    border-radius: 20px;
+    margin-left: 450px;
+    margin-top: 70px;
+    width:600px;
+    padding: 20px;
+    background-color: #1408f5;
+    margin:0 auto;
+    margin-top: 40px !important;
+}
+
+#background{
+width:800px;
+height:600px;
+background:url(mastercard.png);
+background-color: rgba(0, 0, 0, 0.7);
+background-blend-mode: darken;
+margin:0 auto;
+}
+
+#orderr{
+     margin-top: 50px !important; 
+}
+#payment-div input{
+    border:2px solid black;
+    border-radius: 5px;
+    background-color: #21252a;
+    color:#eaedef;
+}
+
+#payment-button{
+    width:70px;
+    text-align: center;
+    padding:0px 0px;
+  background-color:    #8e8e8f; 
+    border-radius: 20px;
+}
+
+#payment-button:hover{
+     font-size: 16.3px; 
+    background-color: rgb(20, 19, 20);
+    transition: 1s;
 }
 
 /* contact section */
-/* #contact-info {
-    position: absolute;
-    top: 150px;
+#contact{
+    background-color: #f7f7f7;
 }
 
-#contact{
-    position: relative;
-    top:950px;
-} */
+#contact-form{
+    border:#21252a solid 2px;
+    margin-left: 500px;
+    border-radius:20px;
+    background-color: #1408f5;
+    width:500px;
+    margin-top: 50px;
+}
+
+.dforms{
+    margin-left: 40px;
+}
+
+.dforms input{
+border-radius: 8px;
+}
+
+#contact-form button{
+    margin-left: 40px;
+    border:2px;
+    border-radius: 20px;
+}
+
+#contact-form button:hover{
+    background-color: rgb(100, 126, 62);
+    transition:1.5s;
+}
+
+#htru{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#social-media{
+    width:100px;
+    border:2px;
+    border-radius: 15px;
+    background-color: rgba(240, 214, 214,0.3);
+}
+
+.socials-address{
+    background-color: #21252a;
+}
+
+#social-media a:hover{
+color:#07fe0b;
+}
+
